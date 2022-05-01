@@ -1,0 +1,171 @@
+/* Menu section */
+#menu .bg-light{
+    background:linear-gradient(102.39deg, rgba(127, 150, 255, 0.04) 0%, rgba(215, 179, 119, 0.04) 100%) !important;
+}
+
+#menu .container-fluid{
+    padding: 0;
+}
+
+nav{
+    padding: 24px 40px !important;
+}
+
+nav ul{
+    display: flex;
+    gap:40px;
+    margin-left: 40px;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #B8B6C7 !important;
+}
+.nav-link:hover{
+    color: #7F96FF !important;
+}
+
+.primary-button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 8px 40px;
+    text-decoration: none;
+    background-color: #7F96FF;
+    border-radius: 100px;
+    color: #ffffff;
+}
+
+.primary-button:hover{
+    color: #ffffff;
+}
+
+/* Hero section */
+#hero{
+    padding: 40px 40px;
+    background:linear-gradient(102.39deg, rgba(127, 150, 255, 0.04) 0%, rgba(215, 179, 119, 0.04) 100%);
+}
+
+.hero-content{
+    align-self: center;
+}
+
+.hero-content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 64px;
+    color: #2B4162;
+}
+
+.hero-content h6{
+    margin-top: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #7B788D;
+}
+
+.hero-buttons{
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.hero-buttons a{
+    width: 240px;
+    text-align: center;
+}
+
+.outline-button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 8px 40px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 100px;
+    color: #7F96FF;
+    border: 1px solid #7F96FF;
+}
+
+.outline-button:hover{
+    color: #7F96FF;
+}
+
+
+
+
+
+/* Facts section */
+#facts{
+    background-color: aqua;
+    height: 100px;
+}
+
+/* Payment section */
+#payment{
+    background-color: bisque;
+    height: 100px;
+}
+
+/* Management section */
+#management{
+    background-color: aqua;
+    height: 100px;
+}
+
+/* Pricing section */
+#pricing{
+
+    background-color: bisque;
+    height: 100px;
+
+}
+
+/* Tenant section */
+#tenant{
+    background-color: aqua;
+    height: 100px;
+
+}
+
+/* Contact section */
+#contact{
+
+    background-color: bisque;
+    height: 100px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul{
+        margin-top: 40px;
+        gap:16px;
+        margin-left: 0;
+    }
+
+
+    #menu .primary-button{
+        display: none;
+    }
+
+    #hero{
+        padding: 40px 24px;
+    }
+    
+    .hero-content h1{
+        font-size: 40px;
+    }
+
+    .hero-buttons{
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    #hero img{
+        margin-top: 24px;
+    }
+    
+  }
