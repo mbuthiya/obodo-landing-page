@@ -238,6 +238,33 @@
 .tenant-image{
     text-align: left;
 }
+
+#contact{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.contact-content{
+    align-self: center;
+}
+
+.contact-content h2{
+    font-family: "Open sans";
+    font-size: 32px;
+    font-weight: bold;
+    color: #2B4162;
+    
+}
+
+.contact-content p{
+    font-family: "Open sans";
+    font-size: 18px;
+    margin-top: 24px;
+    color: #7B788D;
+    margin-bottom: 40px;
+    
+}
+
 @media only screen and (max-width: 600px) {
 
     .menu-items a{
@@ -294,5 +321,8 @@
         margin-top: 40px;
     }
     
+    .contact-image{
+        margin-top: 40px;
+    }
 
 }
