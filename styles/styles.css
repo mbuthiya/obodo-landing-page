@@ -124,15 +124,13 @@ h6{
 
 .facts{
     margin: 40px 40px;
-    gap: 40px;
+    align-items: center;
     
 }
 
 .fact{
     padding: 24px 16px;
     border-radius: 16px;
-    width: 280px;
-    background:linear-gradient(102.39deg, rgba(127, 150, 255, 0.04) 0%, rgba(215, 179, 119, 0.04) 100%);
 }
 
 .fact h6{
@@ -140,7 +138,7 @@ h6{
     text-align: center;
 }
 
-.fact h2{
+h2{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
@@ -156,9 +154,96 @@ h6{
 
 /* Payment section */
 #payment{
-    background-color: bisque;
-    height: 100px;
+   margin-top: 40px;
+   padding: 40px 40px;
 }
+
+#payment h2{
+    text-align: left;
+}
+
+#payment h6{
+    margin-top: 24px;
+}
+
+
+.payment-image{
+    display: flex;
+    justify-content: end;
+}
+
+.payment-content{
+    align-self: center;
+}
+
+.payment-content h2{
+    max-width: 500px;
+   
+}
+
+.feautre-list{
+    margin-top: 80px;
+}
+
+.large-text{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #7B788D;
+}
+
+.small-text{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #7B788D;
+}
+
+h3{
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #2B4162;
+    
+}
+
+.upcoming-features{
+    margin-top: 40px;
+}
+
+.upcoming-features-items{
+    padding-top: 40px;
+}
+
+.upcoming-features-items .large-text{
+    color: #2B4162;
+    font-size: 18px;
+}
+
+.upcoming-features-items{
+    margin-top: 40px;
+}
+
+.upcoming-features-items .feature{
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-features-items .feature img{
+    align-self: center;
+    width: 64px;
+    margin-bottom: 24px;
+}
+
+.upcoming-features{
+
+    background-image: url(../images/upcoming-payment-image.png);
+    padding: 40px 24px;
+}
+
+
 
 /* Management section */
 #management{
@@ -253,6 +338,41 @@ h6{
     .disclaimer p{
         padding: 0px 24px;
     }
+
+    #payment{
+        margin-top: 24px;
+    }
+
+    #payment h2{
+        font-size: 24px;
+    }
+    #payment h6{
+        font-size: 16px;
+    }
+
+    .payment-image img{
+        margin-top: 40px;
+    }
     
+    .feautre-list{
+        margin-top: 40px;
+    }
+
+    .feautre-list .large-text{
+        font-size: 16px;
+    }
     
+    .feature {
+        margin-bottom: 40px;
+    }
+
+    .feature .small-text{
+        font-size: 14px;
+    }
+
+    .upcoming-features{
+        margin-top: 0;
+        padding: 24px 16px;
+        margin: 0;
+    }
   }
