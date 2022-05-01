@@ -52,14 +52,14 @@ nav ul{
     align-self: center;
 }
 
-.hero-content h1{
+h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     font-size: 64px;
     color: #2B4162;
 }
 
-.hero-content h6{
+h6{
     margin-top: 24px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -94,13 +94,64 @@ nav ul{
 }
 
 
-
-
-
 /* Facts section */
+
 #facts{
-    background-color: aqua;
-    height: 100px;
+    margin-top: 80px;
+}
+
+#facts .facts-content{
+    display: flex;
+    justify-content: center;
+}
+
+.facts-content-items{
+    max-width: 600px;
+}
+
+.facts-content-items h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #2B4162;
+
+}
+
+.facts-content-items h6{
+    text-align: center;
+}
+
+.facts{
+    margin: 40px 40px;
+    gap: 40px;
+    
+}
+
+.fact{
+    padding: 24px 16px;
+    border-radius: 16px;
+    width: 280px;
+    background:linear-gradient(102.39deg, rgba(127, 150, 255, 0.04) 0%, rgba(215, 179, 119, 0.04) 100%);
+}
+
+.fact h6{
+    font-size: 14px;
+    text-align: center;
+}
+
+.fact h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #2B4162;
+}
+
+.disclaimer p{
+    font-size: 14px;
+    text-align: center;
+    color: #B8B6C7;
 }
 
 /* Payment section */
@@ -138,6 +189,8 @@ nav ul{
 
 }
 
+
+
 @media only screen and (max-width: 600px) {
     nav ul{
         margin-top: 40px;
@@ -167,5 +220,39 @@ nav ul{
     #hero img{
         margin-top: 24px;
     }
+
+    #facts{
+        margin-top: 40px;
+    }
+    
+    .facts-content-items{
+        padding: 0px 24px;
+    }
+
+    .facts-content-items h3{
+        font-size: 24px;
+    }
+    
+    
+    .facts{
+        margin: 40px 24px;
+        gap: 16px;
+        
+    }
+    
+    .fact{
+        border-radius: 16px;
+        width: 312px;
+    }
+    
+    .fact h2{
+        font-size: 32px;
+        
+    }
+
+    .disclaimer p{
+        padding: 0px 24px;
+    }
+    
     
   }
