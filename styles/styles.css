@@ -1,0 +1,31 @@
+#hero{
+    background: url(../images/hero-image.svg) center center no-repeat;
+    background-size: cover;
+}
+
+.menu-items{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.menu-section img{
+    width: 80px;
+}
+
+.menu-items a{
+    background-color: #7F96FF;
+    color: #FFFFFF;
+    border-radius: 100px;
+    padding: 8px 32px;
+    font-family: "Open sans";
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu-items a:hover{
+    text-decoration: none;
+}
