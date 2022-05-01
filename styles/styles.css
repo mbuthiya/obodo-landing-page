@@ -1,6 +1,7 @@
 #hero{
     background: url(../images/hero-image.svg) center center no-repeat;
     background-size: cover;
+    padding-bottom: 40px;
 }
 
 .menu-items{
@@ -14,7 +15,7 @@
     width: 80px;
 }
 
-.menu-items a{
+.primary-button{
     background-color: #7F96FF;
     color: #FFFFFF;
     border-radius: 100px;
@@ -24,16 +25,82 @@
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 2px;
+    text-align: center;
 }
 
-.menu-items a:hover{
+.primary-button:hover{
     text-decoration: none;
+    color: #FFFFFF;
 }
+
+.outline-button{
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 100px;
+    padding: 8px 32px;
+    font-family: "Open sans";
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+
+.outline-button:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hero-section{
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.hero-content h1{
+    text-align: center;
+    font-family: "Open sans";
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.hero-content p{
+    text-align: center;
+    font-family: "Open sans";
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.hero-image{
+    margin-top: 40px;
+}
+
 
 @media only screen and (max-width: 600px) {
 
     .menu-items a{
         display: none;
+    }
+
+    .hero-content h1{
+        text-align: left;
+    }
+    .hero-content p{
+        text-align: left;
+    }
+
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 40px;
     }
 
 }
