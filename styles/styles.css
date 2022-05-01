@@ -1,4 +1,4 @@
-#hero{
+#hero, #tenant{
     background: url(../images/hero-image.svg) center center no-repeat;
     background-size: cover;
     padding-bottom: 40px;
@@ -62,6 +62,7 @@
     font-family: "Open sans";
     font-size: 40px;
     font-weight: bold;
+    color: #FFFFFF;
     
 }
 
@@ -70,6 +71,7 @@
     font-family: "Open sans";
     font-size: 20px;
     margin-top: 24px;
+    color: #FFFFFF;
 }
 
 .hero-buttons{
@@ -196,7 +198,46 @@
     margin-top: 40px;
 }
 
+#tenant{
+    margin-top: 80px;
+    padding: 0;
+}
 
+.tenant-row{
+    padding: 40px 0;
+}
+
+.tenant-content img:first-child{
+    width: 120px;
+}
+.tenant-content img:last-child{
+    width: 160px;
+}
+
+.tenant-content{
+    align-self: center;
+}
+
+.tenant-content h2{
+    font-family: "Open sans";
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 40px;
+    
+}
+
+.tenant-content p{
+    font-family: "Open sans";
+    font-size: 18px;
+    margin-top: 24px;
+    color: #FFFFFF;
+    
+}
+
+.tenant-image{
+    text-align: left;
+}
 @media only screen and (max-width: 600px) {
 
     .menu-items a{
@@ -246,6 +287,11 @@
     }
     .feature{
         width: 80vw
+    }
+
+    .tenant-image{
+        text-align: center;
+        margin-top: 40px;
     }
     
 
