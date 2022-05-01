@@ -19,7 +19,7 @@
     background-color: #7F96FF;
     color: #FFFFFF;
     border-radius: 100px;
-    padding: 8px 32px;
+    padding: 16px 40px;
     font-family: "Open sans";
     font-size: 16px;
     text-decoration: none;
@@ -37,7 +37,7 @@
     background-color: transparent;
     color: #FFFFFF;
     border-radius: 100px;
-    padding: 8px 32px;
+    padding: 16px 40px;
     font-family: "Open sans";
     font-size: 16px;
     text-decoration: none;
@@ -112,7 +112,7 @@
 
 .fact{
     padding: 24px 16px;
-    width: 300px;
+    width: 220px;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.04);
 }
 
@@ -140,6 +140,62 @@
     font-weight: bold;
     margin-top: 16px;
 }
+
+#features{
+    margin-top: 80px;
+}
+
+.feature-highlight h2{
+    font-family: "Open sans";
+    font-size: 32px;
+    font-weight: bold;
+    color: #2B4162;
+}
+
+.feature-highlight p{
+    font-family: "Open sans";
+    font-size: 18px;
+    color: #7B788D;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.feature-highlight-image{
+    text-align: right;
+}
+
+.feature-highlight-content{
+    align-self: center;
+}
+
+.feature-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.feature{
+    width: 25vw
+}
+
+.feature .large-text{
+    font-family: "Open sans";
+    font-size: 18px;
+    color: #7B788D;
+    font-weight: bold;
+}
+
+.feature .small-text{
+    font-family: "Open sans";
+    font-size: 14px;
+    color: #7B788D;
+}
+
+.single-feature:last-child{
+    margin-top: 40px;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -171,6 +227,26 @@
 
     .facts-list{
         flex-direction: column;
+        align-items: center;
     }
+
+    .feature-highlight-image{
+        margin-top: 40px;
+    }
+
+    .feature-details{
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .single-feature {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .feature{
+        width: 80vw
+    }
+    
 
 }
