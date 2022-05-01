@@ -29,3 +29,11 @@
 .menu-items a:hover{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .menu-items a{
+        display: none;
+    }
+
+}
