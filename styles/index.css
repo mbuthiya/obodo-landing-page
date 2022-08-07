@@ -1,29 +1,3 @@
-#hero{
-    background-color: #FBFCFC;
-    padding: 80px 40px;
-}
-
-#hero p{
-    margin-top: 24px;
-}
-
-.hero-buttons{
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.hero-buttons .body-text-button{
-    margin-left: 24px;
-}
-
-.hero-buttons .body-text-button img{
-    margin-left: 8px;
-}
-
-.hero-image{
-    text-align: center;
-}
 
 #rent-collection{
     margin-top: 120px;
@@ -81,27 +55,13 @@
     margin-top: 40px;
 }
 
+.on-time-payment-image{
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     h1{
         font-size: 56px;
-    }
-
-    .hero-buttons{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hero-buttons .body-text-button{
-        margin-left: 0px;
-        margin-top: 24px;
-    }
-
-    #hero{
-        padding: 40px 24px;
-    }
-
-    .hero-image{
-        margin-top: 40px;
     }
 
     #rent-collection{
@@ -123,7 +83,7 @@
         width: 312px;
     }
 
-    .on-time-payment img{
+    .on-time-payment-image{
         margin-top: 40px;
     }
 

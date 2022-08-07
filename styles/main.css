@@ -176,6 +176,33 @@ h4 {
     
 }
 
+#hero{
+    background-color: #FBFCFC;
+    padding: 80px 40px;
+}
+
+#hero p{
+    margin-top: 24px;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hero-buttons .body-text-button{
+    margin-left: 24px;
+}
+
+.hero-buttons .body-text-button img{
+    margin-left: 8px;
+}
+
+.hero-image{
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     .nav-item {
         margin-top: 24px;
@@ -207,6 +234,22 @@ h4 {
         padding: 0;
     }
 
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .hero-buttons .body-text-button{
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+
+    #hero{
+        padding: 40px 24px;
+    }
+
+    .hero-image{
+        margin-top: 40px;
+    }
 
 }
