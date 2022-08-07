@@ -1,0 +1,57 @@
+#hero .centered-hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.centered-hero-content a{
+    margin-top: 40px;
+}
+
+
+#pricing{
+    margin-top: 80px;
+}
+
+.payment-column{
+    border: 1px solid #D7E6DE;
+    padding: 40px 24px;
+    border-radius: 40px;
+}
+
+.payment-centered-content{
+    text-align: center;
+}
+
+.payment-centered-left{
+    margin-top: 40px;
+}
+
+.button-group-main{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.button-group-main p{
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .button-group-main{
+        margin-top: 40px;
+    
+    }
+
+    .payment-column{
+        border: none;
+        padding: 40px 24px;
+    }
+
+    #pricing{
+        margin-top: 40px;
+    }
+}
