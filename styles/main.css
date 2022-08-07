@@ -3,7 +3,6 @@
 h1 {
     font-family: 'Noto Serif', serif;
     font-weight: 800;
-    line-height: 1.5px;
     font-size: 64px;
     color: #388058;
 }
@@ -11,7 +10,7 @@ h1 {
 h2 {
     font-family: 'Noto Serif', serif;
     font-weight: 32;
-    line-height: 1.2px;
+    
     font-size: 32px;
     color: #388058;
 }
@@ -40,7 +39,7 @@ h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #000000;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .body-text-small {
@@ -114,7 +113,6 @@ h4 {
 
 .navbar-collapse{
     background-color: #fff;
-    padding-bottom: 40px;
 }
 
 /* footer */
@@ -192,6 +190,16 @@ h4 {
         margin-left: 16px;
         margin-right: 16px;
     
+    }
+
+    .footer h3:not(:first-child){
+        
+        margin-top: 24px;
+
+    }
+
+    .footer .col-sm-12{
+        padding: 0;
     }
 
 

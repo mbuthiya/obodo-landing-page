@@ -1,0 +1,26 @@
+#hero{
+    background-color: #FBFCFC;
+    padding: 80px 40px;
+}
+
+#hero p{
+    margin-top: 24px;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hero-buttons .body-text-button{
+    margin-left: 24px;
+}
+
+.hero-buttons .body-text-button img{
+    margin-left: 8px;
+}
+
+.hero-image{
+    text-align: center;
+}
