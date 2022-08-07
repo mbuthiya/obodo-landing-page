@@ -18,7 +18,8 @@
 
   <meta property="og:title" content="The #1 Rent collection platform in Kenya" />
 
-  <meta property="og:image" content="https://s3.amazonaws.com/appforest_uf/f1659824455039x299480151710603140/open-graph-image.png" />
+  <meta property="og:image"
+    content="https://s3.amazonaws.com/appforest_uf/f1659824455039x299480151710603140/open-graph-image.png" />
 
   <meta property="og:description"
     content="Obodo helps landlords and property managers in Kenya easily and reliably collect rental payments from their tenants on time every time." />
@@ -36,7 +37,8 @@
   <meta name="twitter:description"
     content="Obodo helps landlords and property managers in Kenya easily and reliably collect rental payments from their tenants on time every time." />
 
-  <meta name="twitter:image" content="https://s3.amazonaws.com/appforest_uf/f1659824455039x299480151710603140/open-graph-image.png" />
+  <meta name="twitter:image"
+    content="https://s3.amazonaws.com/appforest_uf/f1659824455039x299480151710603140/open-graph-image.png" />
 
 
   <!-- Google fonts -->
@@ -51,6 +53,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/main.css">
+
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -60,6 +65,41 @@
 </head>
 
 <body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/header-footer-images/obodo-logo.svg" alt="Obodo logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link body-text-button" href="pages/invoicing.html">tenant invoicing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link body-text-button" href="pages/payment.html">payment collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link body-text-button" href="pages/verification.html">tenant verification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link body-text-button" href="pages/pricing.html">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link body-text-button" href="pages/faqs.html">FAQs</a>
+          </li>
+        </ul>
+
+        <!-- Get started button -->
+        <div class="right-align ms-auto">
+        <a href="pages/get-started.html" class="main-button">Get started</a>
+      </div>
+      </div>
+    </div>
+  </nav>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
