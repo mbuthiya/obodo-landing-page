@@ -85,7 +85,7 @@ h4 {
     height: 48px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 /* Navbar */
@@ -115,7 +115,7 @@ h4 {
     margin-right: 40px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     background-color: #fff;
 }
 
@@ -134,83 +134,136 @@ h4 {
 }
 
 
-.footer .footer-image-section .body-text-small-highlight{
- margin-top: 16px;
+.footer .footer-image-section .body-text-small-highlight {
+    margin-top: 16px;
 }
 
-.footer .footer-image-section .body-text-small-caption{
- margin-top: 24px;
+.footer .footer-image-section .body-text-small-caption {
+    margin-top: 24px;
 }
 
-.footer .footer-links-section ul{
+.footer .footer-links-section ul {
     margin-left: 0;
     padding-left: 0;
     margin-top: 24px;
 }
 
-.footer .footer-links-section ul li{
+.footer .footer-links-section ul li {
     list-style-type: none;
     margin-left: 0;
     margin-top: 16px;
 }
 
-.footer .footer-socials-section .body-text-small-caption{
+.footer .footer-socials-section .body-text-small-caption {
     margin-top: 24px;
 }
 
-.footer .footer-socials-section ul{
+.footer .footer-socials-section ul {
     margin-left: 0;
     padding-left: 0;
     margin-top: 24px;
-    
+
 }
 
-.footer .footer-socials-section ul li{
+.footer .footer-socials-section ul li {
     list-style-type: none;
     display: inline-block;
-    
+
 }
 
-.footer .footer-socials-section ul li:not(:first-child){
+.footer .footer-socials-section ul li:not(:first-child) {
     margin-left: 24px;
-    
+
 }
 
-#hero{
+#hero {
     background-color: #FBFCFC;
     padding: 80px 40px;
 }
 
-#hero p{
+#hero p {
     margin-top: 24px;
 }
 
-.hero-buttons{
+.hero-buttons {
     display: flex;
     align-items: center;
     margin-top: 40px;
 }
 
-.hero-buttons .body-text-button{
+.hero-buttons .body-text-button {
     margin-left: 24px;
 }
 
-.hero-buttons .body-text-button img{
+.hero-buttons .body-text-button img {
     margin-left: 8px;
 }
 
-.hero-image{
+.hero-image {
     text-align: center;
 }
 
+.page-section {
+    margin-top: 80px;
+    padding: 0 80px;
+}
+
+.page-section p {
+    margin-top: 24px;
+}
+
+.page-section a {
+    margin-top: 24px;
+}
+
+.page-section .content-section {
+    max-width: 550px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.right-align-content .row {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.right-align-content .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.center-align-content .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.center-align-content .content-section img {
+    margin-top: 40px;
+}
+
 @media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 56px;
+        word-wrap: break-word;
+    }
+
     .nav-item {
         margin-top: 24px;
     }
 
     .navbar-brand {
         margin-left: 16px;
-        
+
     }
 
     .navbar .right-align {
@@ -221,35 +274,68 @@ h4 {
     .footer .row {
         margin-left: 16px;
         margin-right: 16px;
-    
+
     }
 
-    .footer h3:not(:first-child){
-        
+    .footer h3:not(:first-child) {
+
         margin-top: 24px;
 
     }
 
-    .footer .col-sm-12{
+    .footer .col-sm-12 {
         padding: 0;
     }
 
-    .hero-buttons{
+    .hero-buttons {
         display: flex;
         flex-direction: column;
     }
 
-    .hero-buttons .body-text-button{
+    .hero-buttons .body-text-button {
         margin-left: 0px;
         margin-top: 24px;
     }
 
-    #hero{
+    #hero {
         padding: 40px 24px;
     }
 
-    .hero-image{
+    .hero-image {
         margin-top: 40px;
     }
+
+    .page-section {
+        margin-top: 40px;
+        padding: 0 24px;
+    }
+
+    .page-section p {
+        margin-top: 24px;
+    }
+
+    .page-section a {
+        margin-top: 40px;
+    }
+
+    .right-align-content .row {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .page-section .content-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .page-section .image-section {
+        margin-top: 40px;
+    }
+
+
 
 }
