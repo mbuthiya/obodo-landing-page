@@ -52,6 +52,8 @@
     }
 
     #pricing{
-        margin-top: 40px;
+        padding: 40px 24px;
+        margin-top: 0;
+        
     }
 }
