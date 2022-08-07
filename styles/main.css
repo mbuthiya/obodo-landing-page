@@ -1,6 +1,6 @@
 /* Font designs */
 
-h1{
+h1 {
     font-family: 'Noto Serif', serif;
     font-weight: 800;
     line-height: 1.5px;
@@ -8,7 +8,7 @@ h1{
     color: #388058;
 }
 
-h2{
+h2 {
     font-family: 'Noto Serif', serif;
     font-weight: 32;
     line-height: 1.2px;
@@ -16,51 +16,52 @@ h2{
     color: #388058;
 }
 
-h3{
+h3 {
     font-family: 'Noto Serif', serif;
     font-size: 18px;
     color: #388058;
+    font-weight: 600;
 }
 
-h4{
+h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #388058;
 }
 
-.body-text-normal{
+.body-text-normal {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000000;
     font-weight: 400;
 }
 
-.body-text-large{
+.body-text-large {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #000000;
     font-weight: 600;
 }
 
-.body-text-small{
+.body-text-small {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #000000;
 }
 
-.body-text-small-highlight{
+.body-text-small-highlight {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #388058;
 }
 
-.body-text-small-caption{
+.body-text-small-caption {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #767676;
 }
 
-.body-text-button{
+.body-text-button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #767676;
@@ -68,12 +69,13 @@ h4{
     text-decoration: none;
 }
 
-.body-text-button:hover{
+.body-text-button:hover {
     color: #388058 !important;
     text-decoration: none;
 }
 
-.main-button, .main-button:hover{
+.main-button,
+.main-button:hover {
     text-decoration: none;
     background-color: #388058;
     padding: 12px 48px;
@@ -85,7 +87,7 @@ h4{
 
 /* Navbar */
 
-.navbar{
+.navbar {
     height: 100px;
 }
 
@@ -93,40 +95,105 @@ h4{
     margin-left: 40px;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     height: 50px;
     width: 165px;
 }
 
-.nav-item{
+.nav-item {
     margin-left: 24px;
 }
 
-.navbar-light{
+.navbar-light {
     background-color: #fff !important;
 }
 
-.navbar .right-align{
+.navbar .right-align {
     margin-right: 40px;
 }
 
+.navbar-collapse{
+    background-color: #fff;
+    padding-bottom: 40px;
+}
 
+/* footer */
+.footer .row {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.footer {
+    background-color: rgba(252, 238, 213, 0.1);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+.footer .footer-image-section .body-text-small-highlight{
+ margin-top: 16px;
+}
+
+.footer .footer-image-section .body-text-small-caption{
+ margin-top: 24px;
+}
+
+.footer .footer-links-section ul{
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 24px;
+}
+
+.footer .footer-links-section ul li{
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 16px;
+}
+
+.footer .footer-socials-section .body-text-small-caption{
+    margin-top: 24px;
+}
+
+.footer .footer-socials-section ul{
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 24px;
+    
+}
+
+.footer .footer-socials-section ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.footer .footer-socials-section ul li:not(:first-child){
+    margin-left: 24px;
+    
+}
 
 @media only screen and (max-width: 600px) {
-    .nav-item{
+    .nav-item {
         margin-top: 24px;
     }
 
     .navbar-brand {
-        margin-left: 24px;
+        margin-left: 16px;
         margin-top: 40px;
     }
 
-    .navbar .right-align{
+    .navbar .right-align {
         margin-right: 0px;
         margin-top: 24px;
     }
 
-
+    .footer .row {
+        margin-left: 16px;
+        margin-right: 16px;
     
+    }
+
+
+
 }
