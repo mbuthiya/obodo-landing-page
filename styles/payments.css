@@ -1,0 +1,54 @@
+.list-items{
+    margin-top: 80px;
+}
+
+
+
+.list-item div{
+    max-width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.list-item div img{
+    width: 80px;
+    height: 80px;
+}
+
+.list-item div h5{
+    margin-top: 24px;
+}
+
+.list-item div p{
+    margin-top: 16px;
+}
+
+.payment-images{
+    display: flex;
+    align-self: center;
+}
+
+.payment-images img:not(:first-child){
+    margin-left: 16px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .payment-images{
+        display: none;
+        
+    }
+
+    .list-item{
+        margin-top: 40px;
+       
+    }
+
+    .list-item div{
+        margin: 0 !important;
+        max-width: 100vw;
+    }
+    
+}

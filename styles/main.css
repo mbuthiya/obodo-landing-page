@@ -27,6 +27,13 @@ h4 {
     color: #388058;
 }
 
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
 .body-text-normal {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -205,7 +212,7 @@ h4 {
 
 .page-section {
     margin-top: 80px;
-    padding: 0 80px;
+    padding: 0 40px;
 }
 
 .page-section p {
@@ -221,7 +228,12 @@ h4 {
 }
 
 .image-section {
-    text-align: center;
+    display: flex;
+    justify-content: right;
+}
+
+.right-align-content .image-section{
+    justify-content: left;
 }
 
 .right-align-content .row {
@@ -334,6 +346,15 @@ h4 {
 
     .page-section .image-section {
         margin-top: 40px;
+    }
+
+    .image-section {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .right-align-content .image-section{
+        justify-content: center;
     }
 
 
