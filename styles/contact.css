@@ -1,0 +1,25 @@
+#hero .centered-hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.centered-hero-content a{
+    margin-top: 40px;
+}
+
+#hero ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+#hero li img{
+    width: 64px;
+    height: 64px;
+}
+
+#hero li:not(:first-child){
+    margin-left: 24px;
+}
