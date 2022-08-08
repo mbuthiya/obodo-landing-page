@@ -27,11 +27,23 @@
 
 .payment-images{
     display: flex;
+    justify-content: space-between;
     align-self: center;
 }
 
 .payment-images img:not(:first-child){
     margin-left: 16px;
+}
+
+.center-align-content .center-content-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-align-content .payment-images {
+    margin-top: 40px;
 }
 
 
